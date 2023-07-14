@@ -27,8 +27,15 @@ window.onload = function() {
     var formattedStartDate = startMonth.toString().padStart(2, '0') + '/' + startYear;
     var formattedEndDate = endMonth.toString().padStart(2, '0') + '/' + endYear;
   
-    // Update the HTML elements with the calculated dates
+    // Format the start month as "MMYY"
+    var formattedStartMonth = startMonth.toString().padStart(2, '0') + (startYear % 100).toString().padStart(2, '0');
+  
+    // Define the pass number
+  
+    // Update the HTML elements with the calculated dates, start month, and pass number
     document.getElementById('start-date').innerHTML = formattedStartDate;
     document.getElementById('end-date').innerHTML = formattedEndDate;
+    document.getElementById('start-month').innerHTML = formattedStartMonth;
+    document.getElementById('pass-no').innerHTML = "7504";
   };
   
