@@ -36,6 +36,6 @@ window.onload = function() {
     document.getElementById('start-date').innerHTML = formattedStartDate;
     document.getElementById('end-date').innerHTML = formattedEndDate;
     document.getElementById('start-month').innerHTML = formattedStartMonth;
-    document.getElementById('pass-no').innerHTML = "7504";
+    document.getElementById('pass-no').innerHTML = "7505";
   };
   
