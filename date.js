@@ -35,7 +35,7 @@ window.onload = function() {
     // Update the HTML elements with the calculated dates, start month, and pass number
     document.getElementById('start-date').innerHTML = formattedStartDate;
     document.getElementById('end-date').innerHTML = formattedEndDate;
-    document.getElementById('start-month').innerHTML = formattedStartMonth;
+    document.getElementById('month-year').innerHTML = formattedStartMonth;
     document.getElementById('pass-no').innerHTML = "7505";
   };
   
